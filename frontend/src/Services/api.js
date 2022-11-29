@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = '';
+const URL = 'http://localhost:8081';
 
 export const addEmployee = async(data) => {
 
