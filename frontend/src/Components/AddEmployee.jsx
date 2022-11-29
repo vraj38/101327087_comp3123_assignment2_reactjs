@@ -33,12 +33,12 @@ const AddEmployee = () => {
         <div className='padding'></div>
         <FormControl>
             <InputLabel>First Name</InputLabel>
-            <Input onChange={(e) => onValueChange(e)} name='name' id="my-input"/>
+            <Input onChange={(e) => onValueChange(e)} name='firstname' id="my-input"/>
         </FormControl>
         <div className='padding'></div>
         <FormControl>
             <InputLabel>Last Name</InputLabel>
-            <Input onChange={(e) => onValueChange(e)} name='username' id="my-input"/>
+            <Input onChange={(e) => onValueChange(e)} name='lastname' id="my-input"/>
         </FormControl>
         <div className='padding'></div>
         <FormControl>
